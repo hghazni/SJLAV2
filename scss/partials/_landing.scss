@@ -1,0 +1,21 @@
+.home-agency {
+    &.full-screen {
+        p {
+            font-size: 3.5rem;
+            font-weight: bold;
+            text-transform: lowercase;
+        }
+    }
+}
+
+#sjla-confetti {
+    position: absolute;
+    z-index: 2;
+}
+
+.home-agency {
+    h3 {
+        @media(max-width: 770px) { font-size: 50px; }
+        @media(max-width: 439px) { font-size: 30px; }
+    }
+}

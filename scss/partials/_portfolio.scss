@@ -1,0 +1,12 @@
+@media (max-width: 770px) {
+    #js-filters-agency {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .cbp-filter-item {
+        width: fit-content;
+    }
+    .cbp-l-filters-buttonCenter .cbp-filter-item:first-child { margin: auto; }
+    .cbp-l-filters-buttonCenter .cbp-filter-item:last-child { margin: auto; }
+}

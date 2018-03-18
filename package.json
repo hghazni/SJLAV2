@@ -1,0 +1,27 @@
+{
+  "name": "sophies_portfolio_v2",
+  "version": "1.0.0",
+  "description": "Sophies 2nd Portfolio for Web Design",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Sophie",
+    "Web",
+    "Design",
+    "Web",
+    "Design",
+    "Portfolio"
+  ],
+  "author": "Harry Ghazni",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "confetti-js": "0.0.11"
+  }
+}

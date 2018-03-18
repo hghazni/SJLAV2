@@ -1,0 +1,21 @@
+.hello {
+    @media (min-width: 770px) {
+        padding-bottom: 50px;
+    }
+    .col-sm-7 {
+        h4 {
+            color: white;
+        }
+    }
+}
+
+.hello-img {
+    @media (min-width: 1000px) {
+        width: 500px!important;
+    }
+}
+
+.about__content--highlight {
+    color: rgba(5, 252, 198, 0.973);
+    font-weight: 600;
+}

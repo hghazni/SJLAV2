@@ -1,0 +1,17 @@
+.contact-form {
+    padding: 0 12.5rem;
+    @media (max-width: 770px) {
+        padding: 0 5rem;
+    }
+}
+
+.heading-block {
+    margin-bottom: 50px;
+}
+
+.mail-to {
+    color: rgb(243, 247, 43)!important;
+    @media (max-width: 400px) {
+        font-size: 1.8rem!important;
+    }
+}
