@@ -24,7 +24,7 @@
         p {
             color: white;
             font-size: 2rem;
-            // Tools
+            // About Underline for each new section
             &.about__underline {
                 padding-top: 2.5rem;
                 font-weight: bold;
@@ -37,8 +37,8 @@
             li {
                 color: white;
                 font-size: 2rem;
-                &:nth-child(1) { strong { color: yellow; } }
-                &:nth-child(2) { strong { color: rgb(240, 81, 81); } }
+                &:nth-child(1) { strong { color: yellow; } } // Sketch
+                &:nth-child(2) { strong { color: rgb(240, 81, 81); } } // Illustrator
             }
         }
     }
