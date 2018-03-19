@@ -19,7 +19,8 @@
   "devDependencies": {
     "browser-sync": "^2.23.6",
     "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0"
+    "gulp-sass": "^3.1.0",
+    "scroll-js": "^1.8.8"
   },
   "dependencies": {
     "confetti-js": "0.0.11"

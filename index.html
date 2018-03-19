@@ -59,7 +59,6 @@
   <div class="logo-center"> <a href="#."><img style="width: 150px;"src="images/sjla_logo.png" alt="" ></a> 
     <div class="header__navigation">
         <ul>
-          <a href="#home"><li>Home</li></a>
           <a href="#about"><li>About</li></a>
           <a href="#work"><li>Work</li></a>
           <a href="#contact"><li>Contact</li></a>
@@ -94,17 +93,27 @@
         <!-- HELLO IMG -->
         <div class="col-sm-5"> <img class="hello-img animate fadeInLeft" data-wow-delay="0.4s" src="images/sophie_cologne.jpg" alt="" > </div>
         <!-- CONTENT INFO -->
-        <div class="col-sm-7">
-          <h4>My name is Sophie Lloyd Ashton. I'm a <span class="about__content--highlight">web designer</span> based in Nottingham, UK and I'd like to help you build your next project.</h4>
+        <div class="col-sm-7" id="about">
+          <h4>My name is Sophie Lloyd Ashton and I'm a <span class="about__content--highlight">web designer</span> based in Nottingham.</h4>
           <div class="test-info">
-            <p></p>
-            <a href="https://www.linkedin.com/in/sophie-lloyd-ashton-91003776" target="_blank" class="btn-flat">LinkedIn</a> </div>
+            <p>My passion for design comes from solving problems. There's nothing better than being presented with a design problem from a client and coming up with an elegant solution.</p>
+            <!-- Tools -->
+            <p class="about__underline">Tools:</p>
+            <ul>
+              <li><strong>Sketch</strong> - for Iconography and web/app prototyping</li>
+              <li><strong>Adobe Illustrator</strong> - for heavier Illustration work such as print, logos and branding</li>
+            </ul>
+            <!-- Skills -->
+            <p class="about__underline">Skills:</p>
+            <ul>
+              <li>Agile, WordPress, Golden Ratio, HTML5, CSS, Sketch, Adobe Illustrator, Atom</li>
+            </ul>
         </div>
       </div>
     </section>
     
     <!-- Portfolio -->
-    <section class="portfolio port-wrap padding-top-150 padding-bottom-150">
+    <section class="portfolio port-wrap padding-top-150 padding-bottom-150" id="work">
       <div class="container"> 
         <!-- Heading Block -->
         <div class="heading-block">
@@ -279,7 +288,7 @@
     <div class="container"> 
       
       <!-- Heading Block -->
-      <div class="heading-block white margin-top-100">
+      <div class="heading-block white margin-top-100" id="contact">
         <h6>get in touch </h6>
         <span class="huge-tittle">contact</span> </div>
       <div class="contact"> 
@@ -287,7 +296,12 @@
       <!-- Rights -->
       <div class="rights col-md-9 center-auto"> <a href="mailto:ms.lloydashton@hotmail.co.uk" class="mail-to">ms.lloydashton@hotmail.co.uk</a>
         <h3>07954426365</h3>
-        <div class="social-icons"> <a href="http://localhost:3000/index-1.html#." target="_blank"><i class="fab fa-linkedin"></i></a> <a href="https://twitter.com/sjlloydashton" target="_blank"><i class="fab fa-twitter"></i></a> <a href="https://github.com/sophielloydashton" target="_blank"><i class="fab fa-github"></i></a> <a href="http://codepen.io/sophielloydashton/" target="_blank"><i class="fab fa-codepen"></i></a> </div>
+        <div class="social-icons"> 
+          <a href="https://www.linkedin.com/in/sophie-lloyd-ashton-91003776/" target="_blank"><i class="fab fa-linkedin"></i></a> 
+          <a href="https://twitter.com/sjlloydashton" target="_blank"><i class="fab fa-twitter"></i></a> 
+          <a href="https://github.com/sophielloydashton" target="_blank"><i class="fab fa-github"></i></a> 
+          <a href="http://codepen.io/sophielloydashton/" target="_blank"><i class="fab fa-codepen"></i></a> 
+        </div>
         <p></p>
         <p class="margin-top-30"><small> Copyright © 2018 Sophie Lloyd Ashton </small></p>
       </div>
@@ -344,14 +358,18 @@
 <script src="js/vendors/jquery.sticky.js"></script> 
 <script src="js/vendors/owl.carousel.min.js"></script> 
 <script src="js/vendors/color-switcher.js"></script> 
+<script src="js/vendors/zenscroll-min.js"></script> 
 <script src="./node_modules/confetti-js/dist/index.min.js"></script>
+
+<script>
+
+</script>
 
 <script>
     var confettiSettings = { 
       target: 'sjla-confetti', 
       // clock: 1, 
       props: ['line', 'square','circle', 'triangle'] };
-
       var confetti = new ConfettiGenerator(confettiSettings);
       confetti.render();
   </script>
