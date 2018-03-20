@@ -10,3 +10,10 @@
     .cbp-l-filters-buttonCenter .cbp-filter-item:first-child { margin: auto; }
     .cbp-l-filters-buttonCenter .cbp-filter-item:last-child { margin: auto; }
 }
+
+.sub-bnr { min-height: 400px!important; }
+.cbp-popup-singlePage .cbp-popup-content {
+    @media only screen and (max-width: 360px), (max-height: 600px) {
+        margin-top: 0;
+    }
+}

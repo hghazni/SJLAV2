@@ -134,6 +134,13 @@
   .cbp-l-filters-buttonCenter .cbp-filter-item:last-child {
     margin: auto; } }
 
+.sub-bnr {
+  min-height: 400px !important; }
+
+@media only screen and (max-width: 360px), (max-height: 600px) {
+  .cbp-popup-singlePage .cbp-popup-content {
+    margin-top: 0; } }
+
 .contact-form {
   padding: 0 12.5rem; }
   @media (max-width: 770px) {
@@ -166,6 +173,8 @@
   font-size: 4rem; }
   .footer .fab.fa-linkedin {
     color: #0e6588; }
+  .footer .fab.fa-behance {
+    color: #e66115; }
   .footer .fab.fa-twitter {
     color: steelblue; }
   .footer .fab.fa-github {
