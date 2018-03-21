@@ -161,6 +161,12 @@
   .cbp-popup-singlePage .cbp-popup-content {
     margin-top: 0; } }
 
+.cbp-popup-singlePage-counter {
+  text-align: center; }
+  @media (max-width: 400px) {
+    .cbp-popup-singlePage-counter {
+      padding-right: 1rem; } }
+
 @media (max-width: 770px) {
   .project-info {
     text-align: center; } }
