@@ -7,11 +7,11 @@
         }
     }
     @media (max-width: 770px) {
-        height: 350vh;
+        height: 280vh;
         padding-top: 0px;
     }
     @media (max-width: 400px) {
-        height: 380vh;
+        height: 300vh;
         padding-top: 0px;
     }
     .test-info { padding-right: 0!important; @media (max-width: 765px) { padding-right: 0!important; } }
@@ -20,7 +20,7 @@
     }
     .col-sm-7 {
         h4 {
-            margin-top: 0;
+            margin: 0 0 2rem 0;
             color: white;
         }
         p {
@@ -41,9 +41,10 @@
                 font-size: 2rem;
                 &:nth-child(1) { strong { color: rgb(247, 143, 25); } } // Sketch
                 &:nth-child(2) { strong { color: rgb(240, 81, 81); } } // Illustrator
-                &:nth-child(3) { strong { color: rgb(231, 79, 245); } } // Adobe XD
-                &:nth-child(4) { strong { color: rgb(34, 33, 33); } } // Invision
-                &:nth-child(5) { strong { color: yellow; } } // Zeplin
+                &:nth-child(3) { strong { color: rgb(63, 209, 245); } } // Photoshop
+                &:nth-child(4) { strong { color: rgb(231, 79, 245); } } // Adobe XD
+                &:nth-child(5) { strong { color: rgb(34, 33, 33); } } // Invision
+                &:nth-child(6) { strong { color: yellow; } } // Zeplin
                 strong {
                     font-weight: 600;
                 }
@@ -61,3 +62,5 @@
     color: rgba(5, 252, 198, 0.973);
     font-weight: 600;
 }
+
+.home-2 { .hello:before { height: 1rem!important; } }

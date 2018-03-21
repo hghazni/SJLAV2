@@ -76,12 +76,12 @@
 
 @media (max-width: 770px) {
   .hello {
-    height: 350vh;
+    height: 280vh;
     padding-top: 0px; } }
 
 @media (max-width: 400px) {
   .hello {
-    height: 380vh;
+    height: 300vh;
     padding-top: 0px; } }
 
 .hello .test-info {
@@ -95,7 +95,7 @@
     text-align: center; } }
 
 .hello .col-sm-7 h4 {
-  margin-top: 0;
+  margin: 0 0 2rem 0;
   color: white; }
 
 .hello .col-sm-7 p {
@@ -116,10 +116,12 @@
   .hello .col-sm-7 ul li:nth-child(2) strong {
     color: #f05151; }
   .hello .col-sm-7 ul li:nth-child(3) strong {
-    color: #e74ff5; }
+    color: #3fd1f5; }
   .hello .col-sm-7 ul li:nth-child(4) strong {
-    color: #222121; }
+    color: #e74ff5; }
   .hello .col-sm-7 ul li:nth-child(5) strong {
+    color: #222121; }
+  .hello .col-sm-7 ul li:nth-child(6) strong {
     color: yellow; }
   .hello .col-sm-7 ul li strong {
     font-weight: 600; }
@@ -136,6 +138,9 @@
 .about__content--highlight {
   color: rgba(5, 252, 198, 0.973);
   font-weight: 600; }
+
+.home-2 .hello:before {
+  height: 1rem !important; }
 
 @media (max-width: 770px) {
   #js-filters-agency {
@@ -164,6 +169,7 @@
   font-size: 1.5rem !important; }
 
 .portfolio-details {
+  padding-top: 150px !important;
   background: none !important; }
 
 .contact-form {
